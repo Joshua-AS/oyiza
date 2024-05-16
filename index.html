@@ -1,51 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OYIZA| HOME</title>
+  <title>OYIZA | HOME</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
+<style>
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #234;
+  }
+
+  header {
+    background-color: #123;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    float: right;
+    border: solid 1px red;
+    border-radius: 50%; /* Create a circular profile picture */
+    margin-right: 10px; /* Add margin for spacing */
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero img {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+.cta1, a{
+  text-align: center;
+  margin-top: 10%;
+  border-radius: 7px;
+}
+  .features {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .features h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .features .card {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .features .card-1 {
+    background-color: #f0f0f0;
+  }
+
+  .features .card-2 {
+    background-color: #d0e0f0;
+  }
+
+  .features .card-3 {
+    background-color: #e0f0f0;
+  }
+
+  .features .card-4 {
+    background-color: #e6e6fa;
+  }
+
+  .features i {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #3399ff;
+  }
+
+  .features p {
+    font-size: 1em;
+  }
+
+
+  header {
+    background-color: #123;
+    color: #fff;
+    display: flex; /* Changed display to flex for horizontal layout */
+    justify-content: space-evenly; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+  }
+
+
+  .cta {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .btn {
+    background-color: #3399ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .nav {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .nav a {
+    float: left;
+    color: #123;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+</style>
+
 <body>
   <header>
+    <img src="hhh.jpeg" alt="Your profile picture" class="profile-pic">
     <h1>YAKUBU</h1>
     <p>OYIZA RUTH.</p>
   </header>
   <section class="hero">
-    <img src="heropic1.jpeg" alt="Student submitting assignment">
+    <img src="bpicc.jpeg" alt="Student submitting assignment">
   </section>
+  <div class="cta1">
+    <a href="assignment_list.html" style="color: white; text-decoration: none; padding: 10px 20px; border: solid 1px lime;"> VIEW ASSIGNMENTS</a>
+  </div>
+
   <section class="features">
-    <h2>EEC502 ASSIGNMENT SUBMISSION </h2>
-    <ul>
-      <li>
+    <h2>EEC502 ASSIGNMENT SUBMISSION</h2>
+    <div class="features-wrapper">
+      <div class="card card-1">
         <i class="fas fa-folder-open"></i>
         <h3>ADMISSION NUMBER</h3>
         <p>1811402009</p>
-      </li>
-      <li>
+      </div>
+      <div class="card card-2">
         <i class="fas fa-upload"></i>
         <h3>COURSE CODE</h3>
         <p>EEC 502.</p>
-      </li>
-      <li>
-        <i class="fas fa-calendar-alt"></i>
+      </div>
+      <div class="card card-3">
+        <i class="fas fa-folder-open"></i>
         <h3>DEPARTMENT</h3>
-        <p>Electrical And Electronics Engineering.</p>
-      </li>
-      <li>
-      <li>
-        <i class="fas fa-lock"></i>
-        <h3>SUBMITTED BY</h3>
-        <p>Ruth Oyiza.</p>
-      </li>
-    </ul>
-  </section>
-  <section class="cta">
-    <a href="assignment_list.html" class="btn">Check Submitted Assignments</a>
-  </section>
-  <footer>
-    <p>&copy; 2024 Oyiza. All rights reserved.</p>
-  </footer>
-  <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
-</body>
-</html>
+        <p>Electrical And Electronics Engineering</p>
+      </div><div class="card card-4">
+        <i class="fas fa-folder-open"></i>
+        <h3>SUBMITTETD BY</h3>
+        <p>Ruth Oyiza Yakubu</p>
+      </div>
+      <p class="cta">
+        <a href="assignment_list.html" style="color: white; text-decoration: none;"> VIEW ASSIGNMENTS </a>
+      </p>
+      </div>
+      </section>
+      <footer>
+        <p>&copy; 2024 Oyiza. All rights reserved.</p>
+      </footer>
+      <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
+    
+      </body>
+      </html>

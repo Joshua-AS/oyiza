@@ -1,38 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OYIZA| HOME</title>
+  <title>OYIZA | HOME</title>
   <link rel="stylesheet" href="index.css">
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #234;
+      padding: 0;
+      color: white;
+    }
+
+    header {
+      background-color: #123;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    .hero {
+      text-align: center;
+    }
+
+    .features {
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    .features .card {
+      display: inline-block;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 5px;
+      color: black;
+      text-align: center;
+    }
+
+    .features .card-1 {
+      background-color: #f0f0f0;
+    }
+
+    .features .card-2 {
+      background-color: #d0e0f0;
+    }
+
+    .features .card-3 {
+      background-color: #e0f0f0;
+    }
+
+    .features .card-4 {
+      background-color: #e6e6fa;
+    }
+
+    .features i {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #3399ff;
+    }
+
+    .features .assignment-title {
+      font-weight: bold;
+    }
+
+    .features a {
+      display: block;
+      margin-top: 10px;
+      background-color: #3399ff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .features a:hover {
+      background-color: #2e8de5;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .btn {
+      background-color: #3399ff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .nav {
+      background-color: white;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .nav a {
+      float: left;
+      color: #123;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
 </head>
+
 <body>
   <div class="nav">
-    <a href="index.html" > HOME</a>
-</div>
+    <a href="index.html">HOME</a>
+  </div>
   <section class="features">
     <h2>ASSIGNMENTS</h2>
-    <ul>
-      <li>
+    <div class="features-wrapper">
+      <div class="card card-1">
         <i class="fas fa-upload"></i>
         <h3>Question 1</h3>
         <p>EEC 514.</p>
         <p></p><strong>Title: </strong> Practical examples on where microprocessor and microcontrollers are used with real pictures</p>
         <a href="ass1.html" class="btn">Details</a>
-      </li>
-      <li>
-        <i class="fas fa-folder-open"></i>
+      </div>
+      <div class="card card-1">
+        <i class="fas fa-upload"></i>
         <h3>Question 2</h3>
-                        <p>EEC 514.</p>
+        <p>EEC 514.</p>
         <p><strong>title: </strong>Programming languages used for micro processors and micro controllers</p>
-                <a href="ass2.html" class="btn">Details</a>
-      </li>
-  </section>
-  <section class="cta">
-  </section>
-  <footer>
-    <p>&copy; 2024 Oyiza. All rights reserved.</p>
-  </footer>
-  <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
-</body>
+        <a href="ass2.html" class="btn">Details</a>
+      </div>
+      </div>
+    </section>
+    <section class="cta">
+    </section>
+    <footer>
+      <p>&copy; 2024 Oyiza. All rights reserved.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit-code.js" crossorigin="anonymous"></script>
+  
+  </body>
 </html>
